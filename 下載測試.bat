@@ -6,7 +6,7 @@ goto download_server
 )
 :download_server
 echo 更い
-powershell -Command "Invoke-WebRequest https://evm1xg.dm.files.1drv.com/y4m-yGFEMz3Xa7aB77itcBs8zXsgAZxDg2UI9tv3xiVpCOdhrg7Tf16eDVEyxLpI33nS0Q9RXCYQpzh-2C2lU86JQVLZbj7-pedMY-xf4jLNPQlqKmbZzGzf9f4GxSkKAT783IQzH1p0ZYppfhUxFNWcGgFoXYQWC3HXiKI3Fh4ws13L79Adcgo81lNblhkU_R2--aVT2mOLtby-Uahg422qag6ZQK5HmCNQe0d2sTM0Eg/1.14.4server.zip -OutFile 1.14.4server.zip"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/allen0101/allen/master/1.14.4server.zip -OutFile 1.14.4server.zip"
 powershell -Command "Expand-Archive -LiteralPath .\1.14.4server.zip -DestinationPath .\ -Forc"
 echo 更ЧΘ
 goto start
@@ -40,7 +40,7 @@ goto download_map1
 )
 :download_map1
 echo 更い瓣ぇ驹い
-powershell -Command "Invoke-WebRequest https://7qwyfg.dm.files.1drv.com/y4mXqIJ3TAyRYewTWFiJOuHfR2yyvV_mE0JPBmFiOppc6emoX86huLix6OdwA9S_RFp_aJyD3zVxb8ioi7ufKypHydxqrQoCaBgP3Lc0XQ9cELf9sVUL8Yb9_SEKuosX-S9m_rME5JtPY7fhwpcOWJmqfqauk7AttZXkPYX8w07WgJpxll8JCXx49C1Hy53C26bT4EuJU0DGGFecqldiVpZX68wjf91pSQ7mmoWmBXPMAg/map1.zip -OutFile map1.zip"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/allen0101/allen/master/map1.zip -OutFile map1.zip"
 echo 瓣ぇ驹更ЧΘ
 :start_map1
 rd /s /q .\world
